@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+    html {
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+     }
+
+     html,body{
+        overflow-x: hidden;
+    }
+
+
+
+body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100vw;
+ }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+.martel-sans-bold {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+.main{
+    background-image: url(./images/netflix-hero.png);
+    background-position: center center;
+    background-size: cover;
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+        url(./images/netflix-hero.png);
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100vw;
+    opacity: 1;
+    background-color: black;
+}
+
+.box {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+    /* opacity: 0.1; */
+}
+
+/* Navbar */
+
+.nav-bar{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    position: relative;
+    z-index: 10;
+    color: red;
+}
+
+/* Hero Section */
+
+.heading{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.text{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.text2{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.input{
+    margin-top: 40px;
+    display: flex;
+    /* flex-direction: column; */
+    color: white;
+}
+
+input{
+    height: 50px;
+    width: 400px;
+    font-size: larger;
+    padding: 5px;
+    background-color: rgba(23,23,23,0.8);
+    color: white;
+}
+
+.btn2{
+    background-color: red;
+    color: white;
+    font-size: 1.5em;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.btn2:hover{
+    background-color: rgb(252, 45, 45);
+    color: white;
+    font-size: 1.5em;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-sign{
+    background-color: red;
+    color: white;
+    font-size: 1em;
+    width: 80px;
+    margin-left: 10px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.separation{
+    height: 10px;
+    background-color: grey;
+}
+
+/* 2nd Section  */
+
+.box2{
+    height: 90vh;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box3{
+    height: 90vh;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+/* .heading-flex{
+    display: flex;
+    flex-direction: column;
+} */
+
+.tv{
+    width: 80%;
+    margin-bottom: 40px;
+    position: relative; 
+    z-index: 10;
+}
+
+video{
+    position: absolute;
+    right: 250px;
+    top: 50rem;
+}
+
+.netflix-img{
+    width: 40%;
+    opacity: 0.7;
+}
+
+/* FAQ SECTION  */
+
+.faq-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #444;
+}
+
+.text-white{
+    background-color: black !important;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-answer p {
+    margin: 0;
+}
+
+
+
+.card {
+    background-color: black;
+    border: none;
+}
+
+.card-header {
+    background-color: black;
+    border: none;
+}
+
+.btn-link {
+    color: white;
+}
+
+.btn-link:hover {
+    color: #ccc; /* Adjust the hover color as needed */
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+}
+.black{
+    background-color: black;
+}
+
+.accordion .card:not(:first-of-type) .card-header:first-child {
+    border-top: 1px solid #444; /* Add a subtle border between cards */
+}
+
+.accordion .card-header {
+    border-bottom: 1px solid #444; /* Add a subtle border below card headers */
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+}
+
+.size{
+    font-size: large !important;
+}
+
+/* .buffer{
+    height: 40px;
+    background-color: black;
+} */
+
+/* MEdia Queries  */
+
+@media screen and (max-width: 500px) {
+    .btn2{
+        margin-top: 20px;
+    }
+    .heading {
+        text-align: center;
+        font-size: 34px;
+    }
+    .text{
+        text-align: center;
+        font-size: 20px;
+    }
+    .main{
+        height: 100vh;
+    }
+    .box3{
+        flex-direction: column;
+    }
+    .tv{
+        width: 100%;
+        position: relative;
+        z-index: 10;
+    }
+    video{
+        display: none;
+    }
+
+    .netflix-img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .girl{
+        width: 60%;
+    }
+      
+        
+  }
+
+
